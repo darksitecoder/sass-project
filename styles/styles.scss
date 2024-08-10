@@ -43,8 +43,9 @@
             }
         }
 
-        &--left h1{
-            font-size: 4rem;
+        &--left .typed-text{
+            font-size: 2rem;
+            font-weight: 700;
             color: $lime;
 
             @include mobile{
@@ -115,4 +116,33 @@
             width: 100%;
         }
     }
+    // span.cursor {
+    //     display: inline-block;
+    //     background-color: $orangeRed;
+    //     margin-left: 0.1rem;
+    //     width: 3px;
+    //     height: 4rem;
+    //     animation: blink 1s infinite;
+    //   }
+    //   span.cursor.typing {
+    //     animation: none;
+    //   }
+    //   @keyframes blink {
+    //     0% {
+    //       background-color: $light;
+    //     }
+    //     49% {
+    //       background-color: $orangered;
+    //     }
+    //     50% {
+    //       background-color: transparent;
+    //     }
+    //     99% {
+    //       background-color: transparent;
+    //     }
+    //     100% {
+    //       background-color: $orangeRed;
+    //     }
+    //   }
+      
 }
